@@ -1,0 +1,153 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#navbarSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(23, 23, 63);
+    color: aliceblue;
+    padding: 0 20px;
+   
+
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+li{
+    list-style: none;
+}
+/*navbar end*/
+#bannerSection{
+   background-image: url(./banner\ img2.jpg);
+   height:100vh ;
+   background-repeat: no-repeat;
+}
+#bannerSection h1{
+    font-size: 45px;
+    position: absolute;
+    left: 500px;
+    top: 10%;
+    background-color: white;
+    box-shadow: 0 0 20px 0 gray;
+    padding: 15px;
+  l
+}
+/*banner end*/
+
+#aboutSection{
+    padding: 20px;
+}
+
+#aboutSection>h1{
+    font-size: 50px;
+    color: rgb(255, 0, 43);
+}
+#aboutMainDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+#aboutTextDiv>h1{
+    font-size: 44px;
+}
+#aboutTextDiv>p{
+    text-align: justify;
+    font-size: 24px;
+    line-height: 32px;
+}
+#aboutTextDiv>button{
+    padding: 10px 30px;
+   font-size:16px ;
+   background-color: rgb(90, 22, 22);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0 0 20px 0 rgb(179, 42, 42);
+}
+#aboutTextDiv>button:hover{
+    transition: 1s;
+    background-color: rgb(92, 17, 17);
+}
+#aboutImageDiv>img{
+    height: 500px;
+    width: 420px;
+    border: 5px solid;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 0 gray;
+}
+/*about section end*/
+#shopSection{
+display: flex;
+justify-content: space-between;
+gap: 50px;
+align-items: center;
+padding: 20px;
+
+
+}
+.shopSectionCard{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    box-shadow: 0 0 3px 10px rgb(121, 111, 112); 
+}
+.shopSectionCard:hover{
+    transition: .4s ease-in-out;
+    background-color: aliceblue;
+}
+.cardImageDiv>img{
+    width: 100%;
+
+}
+.cardTextDiv>h3{
+font-size: 20px;
+color: rgb(216, 51, 51);
+
+}
+.cardTextDiv{
+    padding: 20px;
+}
+.cardTextDiv>button:hover{
+    color: white;
+     background-color: rgb(226, 70, 70);
+     transition: 1s;
+    }
+    /*review section start*/
+    #reviewSection{
+        padding: 20px;
+
+    }
+    #reviewSection>h1{
+        font-size: 54px;
+        color: #8a1639;
+    }
+    #reviewSectionMainDiv{
+        display: flex;
+        gap: 50px;
+    }
+    .reviewSectionCard{
+        color: white;
+        padding: 30px 10px;
+        text-align: center;
+        background-color:  #a1284c ;
+    }
+    .reviewSectionCard>img{
+        border-radius: 50%;
+        height: 150px;
+    }
+    .reviewSectionCard>h2{
+        color: lemonchiffon;
+    }
